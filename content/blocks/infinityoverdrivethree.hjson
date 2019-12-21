@@ -1,0 +1,12 @@
+type: OverdriveProjector
+name: Infinite Overdrive Power Three
+speedBoost: 6
+speedBoostPhase: 3
+description: An Overdrive with infinite range. Quadruple the boost compared to the original.
+range: 69420
+consumes: {
+  power: {
+    usage: 0
+    capacity: 1
+  }
+}
