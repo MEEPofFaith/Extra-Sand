@@ -9,3 +9,4 @@ consumes: {
     capacity: 1
   }
 }
+category: effect
