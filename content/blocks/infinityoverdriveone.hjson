@@ -1,7 +1,7 @@
 type: OverdriveProjector
 name: Infinite Overdrive Power One
 description: An Overdrive with infinite range. Same boosts as the original.
-range: 1000
+range: 4000
 consumes: {
   power: {
     usage: 0
