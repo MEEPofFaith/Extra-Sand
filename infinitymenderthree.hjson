@@ -1,0 +1,12 @@
+type: MendProjector
+name: Infinite Mender Power Four
+reload: 62.5
+description: A Mender with infinite range. Quadruple the mending compared to the original.
+range: 69420
+consumes: {
+  power: {
+    usage: 0
+    capacity: 1
+  }
+}
+category: effect
