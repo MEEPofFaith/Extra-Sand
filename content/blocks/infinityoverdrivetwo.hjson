@@ -11,3 +11,5 @@ consumes: {
   }
 }
 category: effect
+buildVisibility: sandboxOnly
+alwaysUnlocked: true

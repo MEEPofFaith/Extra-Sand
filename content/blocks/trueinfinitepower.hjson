@@ -6,3 +6,4 @@ laserRange: 69420
 health: 69420
 category: power
 buildVisibility: sandboxOnly
+alwaysUnlocked: true
