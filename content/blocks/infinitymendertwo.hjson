@@ -2,7 +2,7 @@ type: MendProjector
 name: Infinite Mender Power Two
 reload: 125
 description: A Mender with infinite range. Double the mending compared to the original.
-range: 69420
+range: 1000
 consumes: {
   power: {
     usage: 0
