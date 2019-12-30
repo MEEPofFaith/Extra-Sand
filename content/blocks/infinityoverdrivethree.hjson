@@ -3,7 +3,7 @@ name: Infinite Overdrive Power Three
 speedBoost: 6
 speedBoostPhase: 3
 description: An Overdrive with infinite range. Quadruple the boost compared to the original.
-range: 8000
+range: 2000
 consumes: {
   power: {
     usage: 0
