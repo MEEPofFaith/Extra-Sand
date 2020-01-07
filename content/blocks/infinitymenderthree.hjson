@@ -8,6 +8,13 @@ consumes: {
     usage: 0
     capacity: 1
   }
+  items: {
+	items: [
+		phase-fabric/1
+	]
+	booster: true
+	optional: true
+  }
 }
 category: effect
 buildVisibility: sandboxOnly
