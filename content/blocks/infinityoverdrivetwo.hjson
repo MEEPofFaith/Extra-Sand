@@ -3,6 +3,7 @@ name: Infinite Overdrive Power Two
 speedBoost: 3
 speedBoostPhase: 1.5
 description: An Overdrive with infinite range. Double the boost compared to the original.
+health: 69420
 range: 2000
 consumes: {
   power: {
