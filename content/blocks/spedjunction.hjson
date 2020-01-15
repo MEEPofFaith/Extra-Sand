@@ -1,6 +1,6 @@
 name: "[#FF0000]Super Junction[]"
 description: A junction with faster transfer and higher capacity.
-type: Junction
+localizedName: : Junction
 speed: 1
 health: 69420
 capacity: 69
