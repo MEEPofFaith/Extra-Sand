@@ -9,7 +9,7 @@ temperature: -69
 viscosity: 0.69
 heatCapacity: 10
 status: {
-  localizedName: CreativeCoolant
+  name: CreativeCoolant
   damage: -25
   speedMultiplier: 10
   armorMultiplier: 10

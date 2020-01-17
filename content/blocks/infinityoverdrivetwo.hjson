@@ -7,7 +7,6 @@ health: 69420
 range: 2000
 hasPower: false
 consumes: {
-  power: {
   items: {
     items: [
       phase-fabric/1

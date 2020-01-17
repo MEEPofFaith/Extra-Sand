@@ -5,6 +5,6 @@ health: 69420
 repairRadius: 2000
 repairSpeed: 50
 hasPower: false
-category: unit
+category: units
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
