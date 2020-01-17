@@ -3,17 +3,14 @@ name: Infinite Overdrive Power One
 description: An Overdrive with infinite range. Same boosts as the original.
 health: 69420
 range: 2000
+hasPower: false
 consumes: {
-  power: {
-    usage: 0
-    capacity: 1
-  }
   items: {
-	items: [
-		phase-fabric/1
-	]
-	booster: true
-	optional: true
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
   }
 }
 category: effect

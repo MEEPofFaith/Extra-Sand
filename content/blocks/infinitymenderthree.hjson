@@ -4,17 +4,14 @@ reload: 62.5
 description: A Mender with infinite range. Quadruple the mending compared to the original.
 health: 69420
 range: 2000
+hasPower: false
 consumes: {
-  power: {
-    usage: 0
-    capacity: 1
-  }
   items: {
-	items: [
-		phase-fabric/1
-	]
-	booster: true
-	optional: true
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
   }
 }
 category: effect
