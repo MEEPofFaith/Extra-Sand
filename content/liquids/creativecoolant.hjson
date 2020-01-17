@@ -1,0 +1,18 @@
+name: Creative Coolant
+description: Extreme coolant for extreme weapon firing speed. Also pretty nice if spilled on a ground unit/mech.
+effect: mine
+color: CBD97F
+lightColor: CBD97F
+explosiveness: 0
+flammability: 0
+temperature: -69
+viscosity: 0.69
+heatCapacity: 10
+status: {
+  name: CreativeCoolant
+  damage: 0
+  speedMultiplier: 10
+  armorMultiplier: 10
+  damageMultiplier: 10
+  effect: mine
+}
