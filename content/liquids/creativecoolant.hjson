@@ -10,7 +10,7 @@ viscosity: 0.69
 heatCapacity: 10
 status: {
   name: CreativeCoolant
-  damage: 0
+  damage: -25
   speedMultiplier: 10
   armorMultiplier: 10
   damageMultiplier: 10
