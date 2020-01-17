@@ -1,0 +1,10 @@
+localizedName: Infinity Repair Point
+description: A Repair Point with extreme range and healing.
+type: RepairPoint
+health: 69420
+repairRadius: 2000
+repairSpeed: 50
+hasPower: false
+category: unit
+buildVisibility: sandboxOnly
+alwaysUnlocked: true

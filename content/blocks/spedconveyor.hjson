@@ -1,6 +1,6 @@
-name: "[#FF0000]Super Conveyor[]"
+localizedName: "[#FF0000]Super Conveyor[]"
 description: A conveyor with super speed and extra item capacity
-localizedName: : Conveyor
+type: Conveyor
 health: 69420
 speed: 0.69
 itemCapacity: 12

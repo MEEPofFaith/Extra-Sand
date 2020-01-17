@@ -1,5 +1,5 @@
-localizedName: : PowerSource
-name: "[#ff0000]T[][#ffa500]R[][#ffff00]U[][#008000]E[] [#0000ff]I[][#6A0DAD]N[][#ff0000]F[][#ffa500]I[][#ffff00]N[][#008000]I[][#0000ff]T[][#6A0DAD]E[] [#ff0000]P[][#ffa500]O[][#ffff00]W[][#008000]E[][#0000ff]R[]"
+type: PowerSource
+localizedName: "[#ff0000]T[][#ffa500]R[][#ffff00]U[][#008000]E[] [#0000ff]I[][#6A0DAD]N[][#ff0000]F[][#ffa500]I[][#ffff00]N[][#008000]I[][#0000ff]T[][#6A0DAD]E[] [#ff0000]P[][#ffa500]O[][#ffff00]W[][#008000]E[][#0000ff]R[]"
 description: "Gives [#ff0000]T[][#ffa500]R[][#ffff00]U[][#008000]E[] infinite power."
 maxNodes: 694200
 laserRange: 250

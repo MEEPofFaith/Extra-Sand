@@ -1,6 +1,6 @@
-name: "[#FF0000]Super Junction[]"
+localizedName: "[#FF0000]Super Junction[]"
 description: A junction with faster transfer and higher capacity.
-localizedName: : Junction
+type: Junction
 speed: 1
 health: 69420
 capacity: 69

@@ -1,6 +1,6 @@
-name: "[#FF0000]Super Bridge Conveyor[]"
+localizedName: "[#FF0000]Super Bridge Conveyor[]"
 description: A bridge conveyer with extreme range and some extra storage.
-localizedName: : ItemBridge
+type: ItemBridge
 health: 69420
 range: 200
 itemCapacity: 50

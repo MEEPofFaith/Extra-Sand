@@ -1,5 +1,5 @@
-localizedName: : OverdriveProjector
-name: Infinite Overdrive Power Two
+type: OverdriveProjector
+localizedName: Infinite Overdrive Power Two
 speedBoost: 3
 speedBoostPhase: 1.5
 description: An Overdrive with infinite range. Double the boost compared to the original.
