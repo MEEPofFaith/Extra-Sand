@@ -1,6 +1,6 @@
 name: Sandy Coolant
 description: Extreme coolant for extreme weapon firing speed. Also pretty nice if spilled on a ground unit/mech.
-effect: none
+effect: overdriven
 color: EFCA98
 lightColor: EFCA98
 explosiveness: 0
@@ -14,5 +14,5 @@ status: {
   speedMultiplier: 10
   armorMultiplier: 10
   damageMultiplier: 10
-  effect: shieldBreak
+  effect: overdriven
 }
