@@ -1,8 +1,8 @@
-name: Creative Coolant
+name: Sandy Coolant
 description: Extreme coolant for extreme weapon firing speed. Also pretty nice if spilled on a ground unit/mech.
-effect: mine
-color: CBD97F
-lightColor: CBD97F
+effect: shieldBreak
+color: EFCA98
+lightColor: EFCA98
 explosiveness: 0
 flammability: 0
 temperature: -69
@@ -14,5 +14,5 @@ status: {
   speedMultiplier: 10
   armorMultiplier: 10
   damageMultiplier: 10
-  effect: mine
+  effect: shieldBreak
 }
