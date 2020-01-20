@@ -3,7 +3,7 @@ mech: overseer
 localizedName: Overseer Mech Pad
 description: Transforms you into the sandbox ship,the Overseer.
 size: 1
-hasPower: false
+hasPower: true
 buildTime: 60
 category: upgrade
 buildVisibility: sandboxOnly
