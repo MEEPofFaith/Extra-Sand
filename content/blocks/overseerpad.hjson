@@ -8,3 +8,6 @@ buildTime: 60
 category: upgrade
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
+consumes: {
+  power: 1
+}
