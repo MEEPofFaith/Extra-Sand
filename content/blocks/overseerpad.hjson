@@ -11,3 +11,6 @@ alwaysUnlocked: true
 consumes: {
   power: 1
 }
+requirements: [
+  copper/1
+]
