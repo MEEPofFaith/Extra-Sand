@@ -1,16 +1,16 @@
 localizedName: Overseer
 description: A powerful sandbox only ship for complete obliteration.
 type: Mech
-drillPower: 69
-mineSpeed: 69
-speed: 10
-maxSpeed: 30
+drillPower: 69420
+mineSpeed: 69420
+speed: 100
+maxSpeed: 4000
 hitsize: 8
 drag: 0.1
 mass: 0.1
 rotatespeed: 3
 health: 20000
-drillPower: 3
+drillPower: 69420
 itemCapacity: 69420
 engineColor: f3b380
 buildPower: 69420
@@ -21,7 +21,7 @@ weapon: {
   alternate: true
   reload: 1
   inaccuracy: 2
-  shake: 2
+  shake: 69420
   nimPlayerDist: 0
   bullet: lancerLaser
   shootSound: laser
