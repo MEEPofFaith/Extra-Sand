@@ -19,9 +19,9 @@ cellTrnsY: 0.75
 weapon: {
   length: 3.125
   width: 0
-  alternate: true
+  alternate: false
   reload: 1
-  inaccuracy: 2
+  inaccuracy: 0
   shake: 1
   nimPlayerDist: 0
   bullet: lancerLaser
