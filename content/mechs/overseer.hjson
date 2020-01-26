@@ -22,7 +22,7 @@ weapon: {
   alternate: true
   reload: 1
   inaccuracy: 2
-  shake: 69420
+  shake: 1
   nimPlayerDist: 0
   bullet: lancerLaser
   shootSound: laser
