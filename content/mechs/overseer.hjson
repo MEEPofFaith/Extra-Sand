@@ -4,8 +4,8 @@ type: Mech
 flying: true
 drillPower: 69420
 mineSpeed: 69420
-speed: 5
-maxSpeed: 20
+speed: 2
+maxSpeed: 5
 hitsize: 8
 drag: 0.1
 mass: 0.1
