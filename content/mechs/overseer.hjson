@@ -4,11 +4,11 @@ type: Mech
 flying: true
 drillPower: 69420
 mineSpeed: 69420
-speed: 2
-maxSpeed: 5
+speed: 1
+maxSpeed: 10
 hitsize: 8
 drag: 0.1
-mass: 0.1
+mass: 10
 rotatespeed: 3
 health: 20000
 drillPower: 69420
@@ -21,9 +21,55 @@ weapon: {
   width: 0
   alternate: false
   reload: 1
-  inaccuracy: 0
-  shake: 1
+  inaccuracy: 5
+  shake: 0.5
   nimPlayerDist: 0
-  bullet: lancerLaser
+  bullet: {
+    type: ArtilleryBulletType
+    bulletSprite: extra-sand-for-the-sandbox-overseerblast
+    speed: 10
+    damage: 500
+    bulletShrink: 0
+    drag: 0
+    incendChance: 10
+    incendAmount: 10
+    lifetime: 32
+    collidesTiles: true
+    collides: true
+    collidesAir: true
+    pierce: true
+    drawSize: 32
+    hitSize: 32
+    trailEffect: shieldBreak
+    hitEffect: shieldBreak
+    despawnEffect: shieldBreak
+    hitSound: none
+    frontColor: FF9C5A
+    backColor: EC7458
+    fragBullets: 10
+    fragBullet: {
+      type: ArtilleryBulletType
+      bulletSprite: extra-sand-for-the-sandbox-overseerblast
+      speed: 10
+      damage: 500
+      bulletShrink: 0
+      drag: 0
+      incendChance: 10
+      incendAmount: 10
+      lifetime: 32
+      collidesTiles: true
+      collides: true
+      collidesAir: true
+      pierce: true
+      drawSize: 16
+      hitSize: 16
+      trailEffect: shieldBreak
+      hitEffect: shieldBreak
+      despawnEffect: shieldBreak
+      hitSound: none
+      frontColor: FF9C5A
+      backColor: EC7458
+    }
+  }
   shootSound: laser
 }
