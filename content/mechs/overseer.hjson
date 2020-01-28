@@ -46,11 +46,13 @@ weapon: {
     hitSound: none
     frontColor: FF9C5A
     backColor: EC7458
+    fragVelocityMin: 0.5
+    fragVelocityMax: 2
     fragBullets: 10
     fragBullet: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
-      speed: 10
+      speed: 5
       damage: 500
       bulletShrink: 0
       drag: 0
@@ -63,12 +65,38 @@ weapon: {
       pierce: true
       drawSize: 16
       hitSize: 16
-      trailEffect: shieldBreak
-      hitEffect: shieldBreak
-      despawnEffect: shieldBreak
+      trailEffect: blockExplosion
+      hitEffect: blockExplosion
+      despawnEffect: blockExplosion
       hitSound: none
       frontColor: FF9C5A
       backColor: EC7458
+      fragVelocityMin: 0.5
+      fragVelocityMax: 2
+      fragBullets: 10
+      fragBullet: {
+        type: ArtilleryBulletType
+        bulletSprite: extra-sand-for-the-sandbox-overseerblast
+        speed: 5
+        damage: 500
+        bulletShrink: 0
+        drag: 0
+        incendChance: 10
+        incendAmount: 10
+        lifetime: 16
+        collidesTiles: true
+        collides: true
+        collidesAir: true
+        pierce: true
+        drawSize: 8
+        hitSize: 8
+        trailEffect: blockExplosion
+        hitEffect: blockExplosion
+        despawnEffect: blockExplosion
+        hitSound: none
+        frontColor: FF9C5A
+        backColor: EC7458
+    }
     }
   }
   shootSound: laser
