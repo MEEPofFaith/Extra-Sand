@@ -28,7 +28,7 @@ weapon: {
     type: ArtilleryBulletType
     bulletSprite: extra-sand-for-the-sandbox-overseerblast
     speed: 10
-    damage: 500
+    damage: 1500
     bulletShrink: 0
     drag: 0
     incendChance: 10
@@ -53,7 +53,7 @@ weapon: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
       speed: 5
-      damage: 500
+      damage: 1500
       bulletShrink: 0
       drag: 0
       incendChance: 10
@@ -78,7 +78,7 @@ weapon: {
         type: ArtilleryBulletType
         bulletSprite: extra-sand-for-the-sandbox-overseerblast
         speed: 5
-        damage: 500
+        damage: 1500
         bulletShrink: 0
         drag: 0
         incendChance: 10
@@ -90,9 +90,9 @@ weapon: {
         pierce: true
         drawSize: 8
         hitSize: 8
-        trailEffect: blockExplosion
-        hitEffect: blockExplosion
-        despawnEffect: blockExplosion
+        trailEffect: shoot
+        hitEffect: shoot
+        despawnEffect: shoot
         hitSound: none
         frontColor: FF9C5A
         backColor: EC7458
