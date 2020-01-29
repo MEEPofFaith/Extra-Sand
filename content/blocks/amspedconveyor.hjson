@@ -1,6 +1,6 @@
 localizedName: "[#FF0000]Super Conveyor[]"
-description: A conveyor with super speed and extra item capacity.
-type: Conveyor
+description: An armored conveyor with super speed and extra item capacity.
+type: ArmoredConveyor
 health: 69420
 speed: 0.69
 itemCapacity: 12
