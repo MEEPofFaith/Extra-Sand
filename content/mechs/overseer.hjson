@@ -96,7 +96,7 @@ weapon: {
         hitSound: none
         frontColor: FF9C5A
         backColor: EC7458
-    }
+      }
     }
   }
   shootSound: laser
