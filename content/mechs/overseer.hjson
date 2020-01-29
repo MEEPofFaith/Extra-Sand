@@ -29,9 +29,9 @@ weapon: {
     type: ArtilleryBulletType
     bulletSprite: extra-sand-for-the-sandbox-overseerblast
     speed: 10
-    damage: 1500
-    splashDamage: 1500
-    splashDamageRadius: 40
+    damage: 3000
+    splashDamage: 3000
+    splashDamageRadius: 128
     bulletShrink: 0
     drag: 0
     incendChance: 10
@@ -56,9 +56,9 @@ weapon: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
       speed: 5
-      damage: 1500
-      splashDamage: 1500
-      splashDamageRadius: 40
+      damage: 3000
+      splashDamage: 3000
+      splashDamageRadius: 128
       bulletShrink: 0
       drag: 0
       incendChance: 10
@@ -83,9 +83,9 @@ weapon: {
         type: ArtilleryBulletType
         bulletSprite: extra-sand-for-the-sandbox-overseerblast
         speed: 5
-        damage: 1500
-        splashDamage: 1500
-        splashDamageRadius: 40
+        damage: 3000
+        splashDamage: 3000
+        splashDamageRadius: 128
         bulletShrink: 0
         drag: 0
         incendChance: 10
