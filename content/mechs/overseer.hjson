@@ -90,9 +90,9 @@ weapon: {
         pierce: true
         drawSize: 8
         hitSize: 8
-        trailEffect: shoot
-        hitEffect: shoot
-        despawnEffect: shoot
+        trailEffect: shootBigSmoke
+        hitEffect: shootBigSmoke
+        despawnEffect: shootBigSmoke
         hitSound: none
         frontColor: FF9C5A
         backColor: EC7458
