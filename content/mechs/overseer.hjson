@@ -5,24 +5,25 @@ flying: true
 drillPower: 69420
 mineSpeed: 69420
 speed: 1
-maxSpeed: 10
+maxSpeed: 100
 hitsize: 8
 drag: 0.1
 mass: 10
 rotatespeed: 3
-health: 20000
+health: 69420
 drillPower: 69420
 itemCapacity: 69420
 engineColor: f3b380
 buildPower: 69420
-cellTrnsY: 0.75
+drawCell: false
+engineColor: EFE4CA
 weapon: {
   length: 3.125
   width: 0
   alternate: false
   reload: 1
   inaccuracy: 15
-  shake: 0.5
+  shake: 3
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
