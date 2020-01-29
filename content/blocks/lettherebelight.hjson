@@ -4,3 +4,6 @@ description: An illuminator that basically just lights up the whole map.
 radius: 2000
 hasPower: false
 health: 69420
+category: effect
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
