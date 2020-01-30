@@ -34,8 +34,9 @@ weapon: {
     splashDamageRadius: 128
     bulletShrink: 0
     drag: 0
-    incendChance: 10
-    incendAmount: 10
+    incendChance: 0
+    incendAmount: 0
+    incendSpread: 0
     lifetime: 32
     collidesTiles: true
     collides: true
@@ -62,8 +63,9 @@ weapon: {
       keepVelocity: false
       bulletShrink: 0
       drag: 0
-      incendChance: 10
-      incendAmount: 10
+      incendChance: 0
+      incendAmount: 0
+      incendSpread: 0
       lifetime: 32
       collidesTiles: true
       collides: true
@@ -90,8 +92,9 @@ weapon: {
         keepVelocity: false
         bulletShrink: 0
         drag: 0
-        incendChance: 10
-        incendAmount: 10
+        incendChance: 0
+        incendAmount: 0
+        incendSpread: 0
         lifetime: 16
         collidesTiles: true
         collides: true
