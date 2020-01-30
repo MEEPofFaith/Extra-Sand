@@ -10,7 +10,7 @@ itemCapacity: 5
 consumes: {
   items: {
     items: [
-      copper/1
+      lead/1
     ]
   }
 }
