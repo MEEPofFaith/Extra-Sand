@@ -6,7 +6,12 @@ produceTime: 1
 maxSpawn: 120
 unitType: revenant
 hasPower: false
-hasItems: false
+itemCapacity: 5
+consumes: {
+  items: [
+    copper/0
+  ]
+}
 category: units
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
