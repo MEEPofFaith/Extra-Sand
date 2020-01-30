@@ -71,7 +71,7 @@ weapon: {
       pierce: true
       drawSize: 16
       hitSize: 16
-      trailEffect: blockExplosion
+      trailEffect: shieldBreak
       hitEffect: blockExplosion
       despawnEffect: blockExplosion
       hitSound: none
@@ -99,7 +99,7 @@ weapon: {
         pierce: true
         drawSize: 8
         hitSize: 8
-        trailEffect: shootBigSmoke
+        trailEffect: shieldBreak
         hitEffect: shootBigSmoke
         despawnEffect: shootBigSmoke
         hitSound: none
