@@ -1,0 +1,12 @@
+type: UnitFactory
+localizedName: Dagger Storm Factory
+description: "JESUS CHRIST THAT'S A LOT OF DAGGERS. [#FF0000]Place at your own risk."
+health: 69420
+produceTime: 1
+maxSpawn: 120
+unitType: dagger
+hasPower: false
+hasItems: false
+category: units
+buildVisibility: sandboxOnly
+alwaysUnlocked: true

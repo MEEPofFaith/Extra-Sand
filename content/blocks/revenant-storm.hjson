@@ -1,0 +1,12 @@
+type: UnitFactory
+localizedName: Revenant Storm Factory
+description: "JESUS CHRIST THAT'S A LOT OF REVENANTS. [#FF0000]Place at your own risk."
+health: 69420
+produceTime: 1
+maxSpawn: 120
+unitType: revenant
+hasPower: false
+hasItems: false
+category: units
+buildVisibility: sandboxOnly
+alwaysUnlocked: true

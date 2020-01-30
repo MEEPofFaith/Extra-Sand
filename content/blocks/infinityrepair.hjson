@@ -4,7 +4,6 @@ type: RepairPoint
 health: 69420
 repairRadius: 2000
 repairSpeed: 0.1
-powerUse: 0
 hasPower: false
 category: units
 buildVisibility: sandboxOnly

@@ -1,0 +1,12 @@
+type: UnitFactory
+localizedName: Crawler Storm Factory
+description: "JESUS CHRIST THAT'S A LOT OF CRAWLERS. [#FF0000]Place at your own risk."
+health: 69420
+produceTime: 1
+maxSpawn: 120
+unitType: crawler
+hasPower: false
+hasItems: false
+category: units
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
