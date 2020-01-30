@@ -7,6 +7,13 @@ maxSpawn: 120
 unitType: crawler
 hasPower: false
 itemCapacity: 5
+consumes: {
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
 category: units
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
