@@ -10,7 +10,6 @@ itemCapacity: 5
 consumes: {
   items: {
     items: [
-      lead/1
     ]
   }
 }
