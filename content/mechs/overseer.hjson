@@ -74,8 +74,8 @@ weapon: {
       drawSize: 16
       hitSize: 16
       trailEffect: shieldBreak
-      hitEffect: blockExplosion
-      despawnEffect: blockExplosion
+      hitEffect: none
+      despawnEffect: none
       hitSound: none
       frontColor: FF9C5A
       backColor: EC7458
@@ -103,8 +103,8 @@ weapon: {
         drawSize: 8
         hitSize: 8
         trailEffect: shieldBreak
-        hitEffect: shootBigSmoke
-        despawnEffect: shootBigSmoke
+        hitEffect: none
+        despawnEffect: none
         hitSound: none
         frontColor: FF9C5A
         backColor: EC7458
