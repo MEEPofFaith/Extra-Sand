@@ -105,8 +105,6 @@ weapon: {
         hitSound: none
         frontColor: FF9C5A
         backColor: EC7458
-        fragBullets: 2
-        fragBullet: lancerLaser
       }
     }
   }
