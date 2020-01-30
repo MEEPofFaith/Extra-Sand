@@ -14,6 +14,7 @@ consumes: {
     ]
   }
 }
+size: 4
 category: units
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
