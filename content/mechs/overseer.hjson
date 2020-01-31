@@ -73,7 +73,7 @@ weapon: {
       pierce: true
       drawSize: 16
       hitSize: 16
-      trailEffect: shieldBreak
+      trailEffect: none
       hitEffect: none
       despawnEffect: none
       hitSound: none
