@@ -79,36 +79,6 @@ weapon: {
       hitSound: none
       frontColor: FF9C5A
       backColor: EC7458
-      fragVelocityMin: 0.5
-      fragVelocityMax: 2
-      fragBullets: 10
-      fragBullet: {
-        type: ArtilleryBulletType
-        bulletSprite: extra-sand-for-the-sandbox-overseerblast
-        speed: 5
-        damage: 1000
-        splashDamage: 1000
-        splashDamageRadius: 128
-        keepVelocity: false
-        bulletShrink: 0
-        drag: 0
-        incendChance: 0
-        incendAmount: 0
-        incendSpread: 0
-        lifetime: 16
-        collidesTiles: true
-        collides: true
-        collidesAir: true
-        pierce: true
-        drawSize: 8
-        hitSize: 8
-        trailEffect: none
-        hitEffect: none
-        despawnEffect: none
-        hitSound: none
-        frontColor: FF9C5A
-        backColor: EC7458
-      }
     }
   }
   shootSound: laser
