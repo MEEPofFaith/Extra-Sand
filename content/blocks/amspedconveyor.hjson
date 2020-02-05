@@ -2,7 +2,7 @@ localizedName: "[#FF0000]Armored Super Conveyor[]"
 description: An armored conveyor with super speed and extra item capacity.
 type: ArmoredConveyor
 health: 69420
-speed: 0.69
+speed: 69
 itemCapacity: 69420
 category: distribution
 buildVisibility: sandboxOnly
