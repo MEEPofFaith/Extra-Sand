@@ -76,9 +76,9 @@ weapon: {
       pierce: true
       drawSize: 16
       hitSize: 16
-      trailEffect: none
-      hitEffect: smoke
-      despawnEffect: smoke
+      trailEffect: smoke
+      hitEffect: shootSmall
+      despawnEffect: shootSmall
       hitSound: none
       frontColor: FF9C5A
       backColor: EC7458
