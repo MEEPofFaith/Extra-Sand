@@ -78,8 +78,8 @@ weapon: {
       drawSize: 16
       hitSize: 16
       trailEffect: none
-      hitEffect: none
-      despawnEffect: none
+      hitEffect: smoke
+      despawnEffect: smoke
       hitSound: none
       frontColor: FF9C5A
       backColor: EC7458
