@@ -1,0 +1,10 @@
+type: LiquidTank
+name: Lake
+description: Stors liquid. Wait what.
+health: 69420
+liquidCapacity: 69420
+solid: false
+size: 6
+category: liquids
+buildVisibility: sandboxOnly
+alwaysUnlocked: true

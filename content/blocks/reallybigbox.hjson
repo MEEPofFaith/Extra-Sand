@@ -3,7 +3,6 @@ name: Really Big Box
 description: Thanks, I really needed it!
 health: 69420
 itemCapacity: 69420
-liquidCapacity: 69420
 size: 8
 category: effect
 buildVisibility: sandboxOnly
