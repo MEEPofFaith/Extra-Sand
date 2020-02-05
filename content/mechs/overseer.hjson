@@ -21,10 +21,10 @@ weapon: {
   ejectEffect: lancerLaserCharge
   width: 0
   alternate: true
-  reload: 20
-  shots: 10
-  shotDelay: 2
-  spacing: 3
+  reload: 2
+  shots: 1
+  shotDelay: 0
+  spacing: 0
   inaccuracy: 0
   shake: 3
   nimPlayerDist: 0
