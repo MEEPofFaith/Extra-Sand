@@ -5,6 +5,7 @@ health: 69420
 liquidCapacity: 69420
 solid: false
 size: 6
+hasShadow: false
 category: liquid
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
