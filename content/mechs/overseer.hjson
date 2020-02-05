@@ -20,8 +20,11 @@ engineColor: EFE4CA
 weapon: {
   length: 3.125
   width: 0
-  alternate: false
-  reload: 1
+  alternate: true
+  reload: 10
+  shots: 5
+  shotDelay: 2
+  spacing: 4
   inaccuracy: 15
   shake: 3
   nimPlayerDist: 0
@@ -29,8 +32,8 @@ weapon: {
     type: ArtilleryBulletType
     bulletSprite: extra-sand-for-the-sandbox-overseerblast
     speed: 10
-    damage: 1000
-    splashDamage: 1000
+    damage: 1500
+    splashDamage: 1500
     splashDamageRadius: 128
     bulletShrink: 0
     drag: 0
@@ -57,8 +60,8 @@ weapon: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
       speed: 5
-      damage: 1000
-      splashDamage: 1000
+      damage: 1500
+      splashDamage: 1500
       splashDamageRadius: 128
       keepVelocity: false
       bulletShrink: 0
