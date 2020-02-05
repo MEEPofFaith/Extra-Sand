@@ -13,5 +13,75 @@ engineSize: 1.8
 engineOffset: 5.7
 engineColor: f3b380
 flying: true
+weapon: {
+  length: 3.125
+  ejectEffect: lancerLaserCharge
+  width: 0
+  alternate: true
+  reload: 10
+  shots: 10
+  shotDelay: 2
+  spacing: 3
+  inaccuracy: 0
+  shake: 3
+  nimPlayerDist: 0
+  bullet: {
+    type: ArtilleryBulletType
+    bulletSprite: extra-sand-for-the-sandbox-overseerblast
+    speed: 10
+    damage: 1500
+    splashDamage: 1500
+    splashDamageRadius: 128
+    bulletShrink: 0
+    drag: 0
+    incendChance: 0
+    incendAmount: 0
+    incendSpread: 0
+    lifetime: 32
+    collidesTiles: true
+    collides: true
+    collidesAir: true
+    pierce: true
+    drawSize: 32
+    hitSize: 32
+    trailEffect: shieldBreak
+    hitEffect: explosion
+    despawnEffect: explosion
+    hitSound: none
+    frontColor: FF9C5A
+    backColor: EC7458
+    fragVelocityMin: 0.5
+    fragVelocityMax: 2
+    fragBullets: 10
+    fragBullet: {
+      type: ArtilleryBulletType
+      bulletSprite: extra-sand-for-the-sandbox-overseerblast
+      speed: 5
+      damage: 1500
+      splashDamage: 1500
+      splashDamageRadius: 128
+      keepVelocity: false
+      bulletShrink: 0
+      drag: 0
+      incendChance: 0
+      incendAmount: 0
+      incendSpread: 0
+      lifetime: 32
+      collidesTiles: true
+      collides: true
+      collidesAir: true
+      pierce: true
+      drawSize: 16
+      hitSize: 16
+      trailEffect: none
+      hitEffect: smoke
+      despawnEffect: smoke
+      hitSound: none
+      frontColor: FF9C5A
+      backColor: EC7458
+    }
+  }
+  shootSound: laser
+}
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
