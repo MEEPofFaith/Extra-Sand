@@ -25,7 +25,7 @@ weapon: {
   shots: 5
   shotDelay: 2
   spacing: 4
-  inaccuracy: 15
+  inaccuracy: 0
   shake: 3
   nimPlayerDist: 0
   bullet: {
