@@ -16,7 +16,6 @@ itemCapacity: 69420
 engineColor: f3b380
 buildPower: 69420
 drawCell: false
-engineColor: EFE4CA
 weapon: {
   length: 3.125
   ejectEffect: lancerLaserCharge
@@ -87,3 +86,5 @@ weapon: {
   }
   shootSound: laser
 }
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
