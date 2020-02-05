@@ -6,7 +6,7 @@ drag: 0.01
 mass: 0.01
 speed: 0.8
 maxVelocity: 2
-itemCapacity: 300
+itemCapacity: 60
 minePower: 6.9
 range: 80
 engineSize: 1.8
