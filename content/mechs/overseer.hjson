@@ -21,7 +21,7 @@ weapon: {
   ejectEffect: lancerLaserCharge
   width: 0
   alternate: true
-  reload: 10
+  reload: 20
   shots: 10
   shotDelay: 2
   spacing: 3
