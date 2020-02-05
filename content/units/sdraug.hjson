@@ -4,8 +4,8 @@ description: "A Draug Miner supercharged with [#EFCA98]Sandy Coolant"
 health: 6969
 drag: 0.01
 mass: 0.01
-speed: 1
-maxVelocity: 50
+speed: 0.8
+maxVelocity: 2
 itemCapacity: 300
 minePower: 6.9
 range: 80
