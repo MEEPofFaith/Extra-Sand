@@ -4,6 +4,7 @@ description: Thanks, I really needed it!
 health: 69420
 itemCapacity: 69420
 size: 8
+rotate: true
 category: effect
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
