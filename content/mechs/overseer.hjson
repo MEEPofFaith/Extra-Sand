@@ -19,6 +19,7 @@ drawCell: false
 engineColor: EFE4CA
 weapon: {
   length: 3.125
+  ejectEffect: lancerLaserCharge
   width: 0
   alternate: true
   reload: 10
