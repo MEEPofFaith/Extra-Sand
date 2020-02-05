@@ -7,7 +7,7 @@ mass: 0.01
 speed: 1
 maxVelocity: 50
 itemCapacity: 60
-minePower: 6.9
+minePower: 69
 range: 80
 engineSize: 1.8
 engineOffset: 5.7
