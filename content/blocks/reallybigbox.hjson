@@ -1,0 +1,9 @@
+type: Vault
+name: Really Big Box
+description: Thanks, I really needed it!
+health: 69420
+itemCapacity: 69420
+liquidCapacity: 69420
+category: effect
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
