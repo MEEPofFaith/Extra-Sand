@@ -1,0 +1,19 @@
+type: UnitFactory
+localizedName: Phantom Storm Factory
+description: "JESUS CHRIST THAT'S A LOT OF PHANTOM BUILDERS. [#FF0000]Place at your own risk."
+health: 69420
+produceTime: 1
+maxSpawn: 120
+unitType: phantom
+hasPower: false
+itemCapacity: 5
+consumes: {
+  items: {
+    items: [
+    ]
+  }
+}
+size: 2
+category: units
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
