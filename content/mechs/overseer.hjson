@@ -14,7 +14,7 @@ rotatespeed: 360
 health: 69420
 itemCapacity: 69420
 engineColor: f3b380
-engineOffset: 8
+engineOffset: 7
 buildPower: 69420
 drawCell: false
 weapon: {

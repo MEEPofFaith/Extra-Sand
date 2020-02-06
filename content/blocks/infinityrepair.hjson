@@ -3,8 +3,9 @@ description: A Repair Point with extreme range and healing.
 type: RepairPoint
 health: 69420
 repairRadius: 2000
-repairSpeed: 0.1
+repairSpeed: 0.001
 hasPower: false
+powerUse: -1
 category: units
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
