@@ -9,7 +9,7 @@ maxSpeed: 100
 hitsize: 8
 drag: 0.1
 mass: 10
-rotatespeed: 3
+rotatespeed: 360
 health: 69420
 drillPower: 69420
 itemCapacity: 69420
