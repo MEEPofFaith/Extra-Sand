@@ -18,7 +18,7 @@ buildPower: 69420
 drawCell: false
 weapon: {
   length: 3.125
-  ejectEffect: lancerLaserCharge
+  ejectEffect: lancerLaserChargeBegin
   width: 0
   alternate: true
   reload: 2
@@ -48,8 +48,8 @@ weapon: {
     drawSize: 32
     hitSize: 32
     trailEffect: shieldBreak
-    hitEffect: explosion
-    despawnEffect: explosion
+    hitEffect: blockExplosion
+    despawnEffect: blockExplosion
     hitSound: none
     frontColor: FF9C5A
     backColor: EC7458
