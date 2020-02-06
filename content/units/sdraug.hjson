@@ -12,7 +12,7 @@ range: 160
 engineSize: 1.8
 engineOffset: 5.7
 engineColor: f3b380
-flying: false
+flying: true
 weapon: {
   length: 3.125
   ejectEffect: lancerLaserCharge
