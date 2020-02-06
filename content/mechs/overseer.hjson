@@ -7,7 +7,7 @@ mineSpeed: 6942069
 speed: 1
 maxSpeed: 1000
 boostSpeed: 2000
-hitsize: 8
+hitsize: 7
 drag: 0.1
 mass: 10
 rotatespeed: 360
