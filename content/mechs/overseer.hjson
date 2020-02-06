@@ -12,7 +12,7 @@ drag: 0.1
 mass: 10
 rotatespeed: 360
 health: 69420
-drillPower: -1
+drillPower: 6942069
 itemCapacity: 69420
 engineColor: f3b380
 engineOffset: 8
@@ -28,7 +28,7 @@ weapon: {
   shotDelay: 0
   spacing: 0
   inaccuracy: 0
-  shake: 16.9
+  shake: 6.9
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
