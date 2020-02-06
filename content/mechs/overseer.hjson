@@ -3,7 +3,7 @@ description: A powerful sandbox only ship for complete obliteration.
 type: Mech
 flying: true
 drillPower: 69420
-mineSpeed: 69420
+mineSpeed: 6942069
 speed: 1
 maxSpeed: 1000
 boostSpeed: 2000
@@ -12,7 +12,6 @@ drag: 0.1
 mass: 10
 rotatespeed: 360
 health: 69420
-drillPower: 6942069
 itemCapacity: 69420
 engineColor: f3b380
 engineOffset: 8
