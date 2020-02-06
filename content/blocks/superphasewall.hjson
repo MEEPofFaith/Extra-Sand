@@ -2,6 +2,7 @@ type: DeflectorWall
 name: Super Reflecting Wall
 description: A powerful bullet reflecting wall.
 health: 6942069
+group: walls
 hitTime: 0
 maxDamageDeflect: 3000
 category: defense
