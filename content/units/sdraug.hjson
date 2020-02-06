@@ -6,9 +6,9 @@ drag: 0.01
 mass: 0.01
 speed: 1
 maxVelocity: 37.5
-itemCapacity: 60
+itemCapacity: 120
 minePower: 69
-range: 80
+range: 160
 engineSize: 1.8
 engineOffset: 5.7
 engineColor: f3b380
