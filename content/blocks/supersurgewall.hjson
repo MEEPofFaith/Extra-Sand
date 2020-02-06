@@ -4,7 +4,7 @@ description: A powerful surge lightning wall.
 health: 6942069
 lightningChance: 1
 lightningDamage: 50
-lightningLength: 100
+lightningLength: 500
 category: defense
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
