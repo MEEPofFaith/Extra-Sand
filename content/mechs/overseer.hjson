@@ -18,7 +18,7 @@ buildPower: 69420
 drawCell: false
 weapon: {
   length: 3.125
-  ejectEffect: lancerLaserChargeBegin
+  ejectEffect: lancerLaserShootSmoke
   width: 0
   alternate: true
   reload: 2
