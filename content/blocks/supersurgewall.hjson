@@ -1,0 +1,10 @@
+type: SurgeWall
+name: Super Zappy Wall
+description: A powerful surge lightning wall.
+health: 6942069
+lightningChance: 1
+lightningDamage: 50
+lightningLength: 100
+category: defence
+buildVisibility: sandboxOnly
+alwaysUnlocked: true
