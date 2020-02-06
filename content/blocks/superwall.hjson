@@ -2,6 +2,6 @@ type: Wall
 name: Super  Wall
 description: A powerful regular wall.
 health: 6942069
-category: defence
+category: defense
 buildVisibility: sandboxOnly
 alwaysUnlocked: true

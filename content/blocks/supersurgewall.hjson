@@ -5,6 +5,6 @@ health: 6942069
 lightningChance: 1
 lightningDamage: 50
 lightningLength: 100
-category: defence
+category: defense
 buildVisibility: sandboxOnly
 alwaysUnlocked: true

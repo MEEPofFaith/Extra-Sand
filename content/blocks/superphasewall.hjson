@@ -4,6 +4,6 @@ description: A powerful bullet reflecting wall.
 health: 6942069
 hitTime: 0
 maxDamageDeflect: 3000
-category: defence
+category: defense
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
