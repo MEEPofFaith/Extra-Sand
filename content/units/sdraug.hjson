@@ -9,7 +9,7 @@ maxVelocity: 40
 itemCapacity: 120
 minePower: 69
 attackLength: 240
-range: 160
+rotateSpeed: 1
 engineSize: 1.8
 engineOffset: 5.7
 engineColor: f3b380
