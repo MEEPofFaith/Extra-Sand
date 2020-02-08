@@ -5,7 +5,7 @@ health: 6942069
 group: walls
 lightningChance: 5
 lightningDamage: 100
-lightningLength: 6969
+lightningLength: 200
 category: defense
 buildVisibility: sandboxOnly
 alwaysUnlocked: true
