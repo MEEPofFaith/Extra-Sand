@@ -23,11 +23,11 @@ weapon: {
   width: 0
   alternate: true
   reload: 2
-  shots: 2
+  shots: 3
   shotDelay: 0
-  spacing: 10
+  spacing: 5
   inaccuracy: 0
-  shake: 6.9
+  shake: 2
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
