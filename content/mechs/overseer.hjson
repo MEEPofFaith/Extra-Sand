@@ -8,7 +8,7 @@ speed: 3
 maxSpeed: 1000
 boostSpeed: 2000
 hitsize: 7
-drag: 0.01
+drag: 1
 mass: 0.01
 rotatespeed: 360
 health: 69420
@@ -23,18 +23,18 @@ weapon: {
   width: 0
   alternate: true
   reload: 2
-  shots: 5
+  shots: 2
   shotDelay: 0
-  spacing: 1
-  inaccuracy: 0.5
+  spacing: 5
+  inaccuracy: 1
   shake: 6.9
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
     bulletSprite: extra-sand-for-the-sandbox-overseerblast
     speed: 10
-    damage: 1500
-    splashDamage: 1500
+    damage: 3000
+    splashDamage: 3000
     splashDamageRadius: 128
     bulletShrink: 0
     drag: 0
@@ -61,8 +61,8 @@ weapon: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
       speed: 5
-      damage: 1500
-      splashDamage: 1500
+      damage: 3000
+      splashDamage: 3000
       splashDamageRadius: 128
       keepVelocity: false
       bulletShrink: 0
