@@ -4,12 +4,12 @@ type: Mech
 flying: true
 drillPower: 69420
 mineSpeed: 6942069
-speed: 3
+speed: 2
 maxSpeed: 1000
 boostSpeed: 2000
 hitsize: 7
 drag: 0.1
-mass: 0.01
+mass: 100
 rotatespeed: 360
 health: 69420
 itemCapacity: 69420
