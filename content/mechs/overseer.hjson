@@ -8,7 +8,7 @@ speed: 3
 maxSpeed: 1000
 boostSpeed: 2000
 hitsize: 7
-drag: 1
+drag: 0.1
 mass: 0.01
 rotatespeed: 360
 health: 69420
