@@ -1,5 +1,5 @@
 type: LiquidTank
-name: Lake
+name: Artificial Lake
 description: Stors liquid. Wait what.
 health: 69420
 liquidCapacity: 69420

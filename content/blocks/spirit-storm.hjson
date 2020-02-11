@@ -1,6 +1,6 @@
 type: UnitFactory
 localizedName: Spirit Storm Factory
-description: "JESUS CHRIST THAT'S A LOT OF SPIRIT REPAIR DRONES. [#FF0000]Place at your own risk."
+description: "JESUS CHRIST THAT'S A LOT OF SPIRIT REPAIR DRONES.\n[#FF0000]Place at your own risk."
 health: 69420
 produceTime: 1
 maxSpawn: 120
