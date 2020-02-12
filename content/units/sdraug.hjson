@@ -20,7 +20,6 @@ tomine: [
   lead
   titanium
   thorium
-  coal
 ]
 weapon: {
   length: 3.125
