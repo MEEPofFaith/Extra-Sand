@@ -15,12 +15,12 @@ engineSize: 1.8
 engineOffset: 5.7
 engineColor: f3b380
 flying: true
-toMine: {
+tomine: [
   copper
   lead
   titanium
   thorium
-}
+]
 weapon: {
   length: 3.125
   ejectEffect: lancerLaserCharge
