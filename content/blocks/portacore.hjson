@@ -1,11 +1,7 @@
 name: Portable Core
-description:
-  '''
-  Place it down to pull stuff from the core from anywhere!
-  
-  Has very little hp so it's easily removeable. (You can't deconstruct core blocks, so other methods are required.)
-  '''
+description: Place it down to pull stuff from the core from anywhere!
 type: CoreBlock
+breakable: true
 health: 1
 size: 3
 category: effect
