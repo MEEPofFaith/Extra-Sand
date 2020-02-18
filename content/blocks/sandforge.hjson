@@ -1,0 +1,37 @@
+type: GenericSmelter
+name: Sand Forge
+description:
+  '''
+  Creates completely normal sand, nothing interesting with it.
+  Wait how the heck are you supposed to automate this?
+  '''
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 24
+craftTime: 90
+flameColor: C9A58F
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      cookienite/3
+      titanium/1
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.133333333
+    timePeriod: 90
+  }
+}
+requirements: [
+  
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: sandysand/1
