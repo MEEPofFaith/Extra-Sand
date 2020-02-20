@@ -34,4 +34,4 @@ category: crafting
 research: alloy-smelter
 idleSound: respawning
 idleSoundVolume: 0.5
-outputItem: sandysand/1
+outputItem: normalsand/1
