@@ -1,8 +1,9 @@
 type: GenericSmelter
-name: Sand Forge
+name: "[#EFCA98]Sand[] Forge"
 description:
   '''
-  Creates completely normal sand, nothing interesting with it.
+  Combines all materials to make [#EFCA98]Completely Normal Sand[]. Definitely not something special or anything.
+  
   Wait how the heck are you supposed to automate this?
   '''
 size: 3
