@@ -11,7 +11,7 @@ hitsize: 7
 drag: 0.1
 mass: 100
 rotatespeed: 360
-health: 69420
+health: 6942069
 itemCapacity: 69420
 engineColor: f3b380
 engineOffset: 7
@@ -33,9 +33,9 @@ weapon: {
     type: ArtilleryBulletType
     bulletSprite: extra-sand-for-the-sandbox-overseerblast
     speed: 10
-    damage: 3000
-    splashDamage: 3000
-    splashDamageRadius: 128
+    damage: 69420
+    splashDamage: 69420
+    splashDamageRadius: 560
     bulletShrink: 0
     drag: 0
     incendChance: 0
@@ -61,9 +61,9 @@ weapon: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
       speed: 5
-      damage: 3000
-      splashDamage: 3000
-      splashDamageRadius: 128
+      damage: 69420
+      splashDamage: 69420
+      splashDamageRadius: 560
       keepVelocity: false
       bulletShrink: 0
       drag: 0
