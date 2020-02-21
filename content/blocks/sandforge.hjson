@@ -5,26 +5,29 @@ description:
   Creates completely normal sand, nothing interesting with it.
   Wait how the heck are you supposed to automate this?
   '''
-size: 2
+size: 3
 hasPower: true
 hasLiquids: true
 hasItems: true
 liquidCapacity: 24
-craftTime: 90
+craftTime: 304.86
 flameColor: C9A58F
 updateEffect: smeltsmoke
 consumes: {
   power: 0.7
   items: {
     items: [
-      cookienite/3
+      copper/1
+      lead/1
+      graphite/1
+      silicon/1
+      metaglass/1
       titanium/1
+      plastanium/1
+      thorium/1
+      phase-fabric/1
+      surge-alloy/1
     ]
-  }
-  liquid: {
-    liquid: water
-    amount: 0.133333333
-    timePeriod: 90
   }
 }
 requirements: [
@@ -32,6 +35,6 @@ requirements: [
 ]
 category: crafting
 research: alloy-smelter
-idleSound: respawning
+idleSound: laserbig
 idleSoundVolume: 0.5
-outputItem: normalsand/1
+outputItem: normalsand/10
