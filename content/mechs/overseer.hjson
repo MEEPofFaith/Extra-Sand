@@ -23,9 +23,8 @@ weapon: {
   width: 0
   alternate: true
   reload: 2
-  shots: 3
+  shots: 1
   shotDelay: 0
-  spacing: 5
   inaccuracy: 0
   shake: 2
   nimPlayerDist: 0
@@ -33,8 +32,8 @@ weapon: {
     type: ArtilleryBulletType
     bulletSprite: sandy-sand-overseerblast
     speed: 10
-    damage: 69420
-    splashDamage: 69420
+    damage: 100000000
+    splashDamage: 100000000
     splashDamageRadius: 560
     bulletShrink: 0
     drag: 0
@@ -61,8 +60,8 @@ weapon: {
       type: ArtilleryBulletType
       bulletSprite: extra-sand-for-the-sandbox-overseerblast
       speed: 5
-      damage: 69420
-      splashDamage: 69420
+      damage: 100000000
+      splashDamage: 100000000
       splashDamageRadius: 560
       keepVelocity: false
       bulletShrink: 0
