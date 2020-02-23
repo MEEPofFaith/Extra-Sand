@@ -31,7 +31,7 @@ weapon: {
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
-    bulletSprite: extra-sand-for-the-sandbox-overseerblast
+    bulletSprite: sandy-sand-overseerblast
     speed: 10
     damage: 69420
     splashDamage: 69420
