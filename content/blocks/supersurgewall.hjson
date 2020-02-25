@@ -7,5 +7,8 @@ lightningChance: 5
 lightningDamage: 100
 lightningLength: 200
 category: defense
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/1500
+  surge-alloy/500
+]
+reserach: superwall

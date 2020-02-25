@@ -5,5 +5,8 @@ speed: 1
 health: 69420
 capacity: 69
 category: distribution
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/55
+  copper/20
+]
+reserach: spedconveyor

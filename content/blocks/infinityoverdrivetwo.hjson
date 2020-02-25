@@ -16,5 +16,11 @@ consumes: {
   }
 }
 category: effect
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/4375
+  lead/2500
+  titanium/1875
+  silicon/1875
+  plastanium/750
+]
+reserach: infinityoverdriveone

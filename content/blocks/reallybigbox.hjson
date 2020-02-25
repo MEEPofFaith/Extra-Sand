@@ -1,10 +1,22 @@
 type: Vault
 name: Really Big Box
 description: Thanks, I really needed it!
-health: 69420
-itemCapacity: 69420
+health: 69250
+itemCapacity: 69250
 size: 8
 rotate: true
 category: effect
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/4500
+  copper/250
+  lead/250
+  titanium/250
+  thorium/250
+  silicon/250
+  graphite/250
+  metaglass/250
+  plastanium/250
+  surge-alloy/250
+  phase-fabric/250
+]
+reserach: vault

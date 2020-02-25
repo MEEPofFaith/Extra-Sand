@@ -5,5 +5,10 @@ health: 69420
 speed: 69
 itemCapacity: 69420
 category: distribution
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/50
+  copper/10
+  lead/10
+  titanium/10
+]
+reserach: armored-conveyor

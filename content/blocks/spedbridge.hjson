@@ -2,10 +2,17 @@ localizedName: "[#FF0000]Super Bridge Conveyor[]"
 description: A bridge conveyer with extreme range and some extra storage.
 type: ItemBridge
 health: 69420
-range: 200
+range: 40
 itemCapacity: 50
 transportTime: 0
 hasPower: false
 category: distribution
 buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/150
+  phase-fabric/50
+  silicon/70
+  lead/100
+  graphite/100
+]
+reserach: spedconveyor

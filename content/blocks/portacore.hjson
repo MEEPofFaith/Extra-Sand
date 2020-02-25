@@ -1,9 +1,26 @@
 name: Portable Core
-description: Place it down to pull stuff from the core from anywhere!
+description:
+  '''
+  Place it down to pull stuff from the core from anywhere!
+  
+  [red]WARNING: Can't be deconstructed. Only destroyed.
+  '''
 type: CoreBlock
 breakable: true
 health: 1
 size: 3
 category: effect
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/5000
+  copper/420
+  lead/420
+  titanium/420
+  thorium/420
+  silicon/420
+  graphite/420
+  metaglass/420
+  plastanium/420
+  surge-alloy/420
+  phase-fabric/420
+]
+reserach: vault

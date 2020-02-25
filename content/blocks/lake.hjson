@@ -7,5 +7,17 @@ solid: false
 size: 6
 hasShadow: false
 category: liquid
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/2500
+  copper/100
+  lead/100
+  titanium/100
+  thorium/100
+  silicon/100
+  graphite/100
+  metaglass/100
+  plastanium/100
+  surge-alloy/100
+  phase-fabric/100
+]
+reserach: liquid-tank

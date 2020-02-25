@@ -6,5 +6,8 @@ group: walls
 hitTime: 0
 maxDamageDeflect: 3000
 category: defense
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/1500
+  phase-fabric/500
+]
+reserach: superwall

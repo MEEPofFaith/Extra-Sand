@@ -6,5 +6,17 @@ health: 69420
 hasPower: false
 buildTime: 0
 category: upgrade
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/9000
+  copper/4269
+  lead/4269
+  titanium/4269
+  thorium/4269
+  silicon/4269
+  graphite/4269
+  metaglass/4269
+  plastanium/4269
+  surge-alloy/4269
+  phase-fabric/4269
+]
+reserach: glaive-ship-pad

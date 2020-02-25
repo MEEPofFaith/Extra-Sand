@@ -14,5 +14,11 @@ consumes: {
   }
 }
 category: effect
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/1750
+  lead/1000
+  titanium/750
+  silicon/750
+  plastanium/300
+]
+reserach: overdrive-projector

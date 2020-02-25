@@ -5,5 +5,10 @@ health: 69420
 speed: 69
 itemCapacity: 69420
 category: distribution
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/65
+  plastanium/10
+  thorium/10
+  metaglass/10
+]
+reserach: spedconveyor

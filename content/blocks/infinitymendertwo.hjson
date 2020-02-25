@@ -15,5 +15,10 @@ consumes: {
   }
 }
 category: effect
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/1250
+  lead/250
+  titanium/625
+  silicon/1000
+]
+reserach: infinitymenderone

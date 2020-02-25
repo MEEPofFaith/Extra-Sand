@@ -15,5 +15,11 @@ consumes: {
 }
 size: 2
 category: units
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/2000
+  titanium/500
+  thorium/600
+  lead/650
+  silicon/1050
+]
+reserach: phantom-factroy

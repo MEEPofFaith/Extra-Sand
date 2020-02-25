@@ -7,5 +7,10 @@ repairSpeed: 0.001
 hasPower: false
 powerUse: -1
 category: units
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/500
+  copper/150
+  lead/150
+  silicon/150
+]
+reserach: repair-point

@@ -36,5 +36,6 @@ requirements: [
 category: crafting
 research: alloy-smelter
 idleSound: laserbig
-idleSoundVolume: 69420
+idleSoundVolume: 2
+sync: false
 outputItem: normalsand/10

@@ -14,5 +14,10 @@ consumes: {
   }
 }
 category: effect
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/500
+  lead/100
+  titanium/250
+  silicon/400
+]
+reserach: mend-projector

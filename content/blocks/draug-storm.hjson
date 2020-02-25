@@ -15,5 +15,9 @@ consumes: {
 }
 size: 2
 category: units
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/5000
+  copper/300
+  lead/700
+]
+reserach: draug-factroy

@@ -15,5 +15,9 @@ consumes: {
 }
 size: 2
 category: units
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
+requirements: [
+  normalsand/1550
+  lead/450
+  silicon/300
+]
+reserach: crawler-factroy

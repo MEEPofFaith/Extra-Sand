@@ -1,0 +1,5 @@
+buildVisibility: shown
+requirements: [
+  normalsand/12345
+]
+reserach: vault
