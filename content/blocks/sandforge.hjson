@@ -31,7 +31,11 @@ consumes: {
   }
 }
 requirements: [
-  
+  copper/250
+  lead/225
+  thorium/225
+  titanium/230
+  surge-alloy/200
 ]
 category: crafting
 research: alloy-smelter

@@ -1,4 +1,5 @@
 buildVisibility: shown
+alwaysUnlocked: false
 requirements: [
   normalsand/12345
 ]
