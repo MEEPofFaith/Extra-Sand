@@ -5,7 +5,7 @@ radius: 2000
 hasPower: false
 health: 69420
 category: effect
-buildVisibility: lighitingOnly
+buildVisibility: lightingOnly
 requirements: [
   normalsand/500
   graphite/40
