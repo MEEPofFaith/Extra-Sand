@@ -1,6 +1,11 @@
 buildVisibility: shown
+description:
+  '''
+  Infinitely creates power.
+  [green] Now avalable in campaign due to the Extra Sand in the Sandbox Mod!
+  '''
 alwaysUnlocked: false
 requirements: [
-  normalsand/1500
+  normalsand/2250
 ]
 research: impact-reactor

@@ -1,12 +1,12 @@
 buildVisibility: shown
 description:
   '''
-  Infinitely creates items.
+  Infinitely destroys liquids.
   [green] Now avalable in campaign due to the Extra Sand in the Sandbox Mod!
   '''
 health: 169
 alwaysUnlocked: false
 requirements: [
-  normalsand/15000
+  normalsand/42
 ]
-research: item-void
+research: liquid-tank

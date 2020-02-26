@@ -1,6 +1,12 @@
 buildVisibility: shown
+description:
+  '''
+  Infinitely creates liquids.
+  [green] Now avalable in campaign due to the Extra Sand in the Sandbox Mod!
+  '''
+health: 169
 alwaysUnlocked: false
 requirements: [
-  normalsand/12345
+  normalsand/12000
 ]
-research: vault
+research: liquid-void

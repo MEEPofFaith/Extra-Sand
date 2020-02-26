@@ -10,7 +10,7 @@ size: 3
 hasPower: true
 hasItems: true
 liquidCapacity: 24
-craftTime: 304.9
+craftTime: 306
 flameColor: C9A58F
 updateEffect: smeltsmoke
 consumes: {
@@ -39,7 +39,7 @@ requirements: [
 ]
 category: crafting
 research: alloy-smelter
-idleSound: laserbig
+idleSound: completelynormalsandforgery
 idleSoundVolume: 2
 sync: false
 outputItem: normalsand/10
