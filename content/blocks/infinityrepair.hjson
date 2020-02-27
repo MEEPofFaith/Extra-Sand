@@ -5,7 +5,7 @@ health: 69420
 repairRadius: 2000
 repairSpeed: 0.001
 hasPower: false
-powerUse: -1
+powerUse: 0.0000000000000000000000000000000000000001
 category: units
 requirements: [
   normalsand/500
