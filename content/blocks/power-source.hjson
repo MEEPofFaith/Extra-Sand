@@ -3,7 +3,7 @@ health: 169
 description:
   '''
   Infinitely creates power.
-  [green] Now avalable in campaign due to the Extra Sand in the Sandbox Mod!
+  [green]Now avalable in campaign due to the Extra Sand in the Sandbox Mod!
   '''
 alwaysUnlocked: false
 requirements: [
