@@ -3,7 +3,7 @@ localizedName: Ultimate Illuminator
 description: An illuminator that basically just lights up the whole map.
 radius: 2000
 hasPower: false
-health: 69420
+health: 120
 category: effect
 buildVisibility: lightingOnly
 requirements: [

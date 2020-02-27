@@ -3,7 +3,7 @@ localizedName: Infinite Overdrive Power Three
 speedBoost: 6
 speedBoostPhase: 3
 description: An Overdrive with infinite range. Quadruple the boost compared to the original.
-health: 69420
+health: 700
 range: 2000
 hasPower: false
 consumes: {

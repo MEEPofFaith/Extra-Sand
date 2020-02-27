@@ -1,7 +1,7 @@
 type: UnitFactory
 localizedName: Draug Storm Factory
 description: "JESUS CHRIST THAT'S A LOT OF DEFINITELY COMPLETELY NORMAL DRAUG MINERS.\n[#FF0000]Place at your own risk."
-health: 69420
+health: 500
 produceTime: 1
 maxSpawn: 120
 unitType: sdraug
@@ -16,7 +16,7 @@ consumes: {
 size: 2
 category: units
 requirements: [
-  normalsand/5000
+  normalsand/4500
   copper/300
   lead/700
 ]

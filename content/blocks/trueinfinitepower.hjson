@@ -8,7 +8,7 @@ description:
   '''
 maxNodes: 694200
 laserRange: 250
-health: 69420
+health: 200
 category: power
 requirements: [
   normalsand/9001

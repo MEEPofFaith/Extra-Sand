@@ -1,7 +1,7 @@
 localizedName: "[#FF0000]Super Bridge Conveyor[]"
 description: A bridge conveyer with extreme range and some extra storage.
 type: ItemBridge
-health: 69420
+health: 75
 range: 40
 itemCapacity: 50
 transportTime: 0

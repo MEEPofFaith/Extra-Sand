@@ -1,7 +1,7 @@
 type: MendProjector
 localizedName: Infinite Mender Power One
 description: A Mender with infinite range. Same mending as the original.
-health: 69420
+health: 500
 range: 2000
 hasPower: false
 consumes: {

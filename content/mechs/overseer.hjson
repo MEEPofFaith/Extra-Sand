@@ -15,6 +15,7 @@ health: 6942069
 itemCapacity: 69420
 engineColor: f3b380
 engineOffset: 7.5
+engineSize: 2.7
 buildPower: 69420
 cellTrnsY: 2
 weapon: {

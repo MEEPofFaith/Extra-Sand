@@ -1,7 +1,7 @@
 type: Vault
 name: Really Big Box
-description: Thanks, I really needed it!
-health: 69250
+description: Thanks, I really needed the extra storage!
+health: 750
 itemCapacity: 69250
 size: 8
 rotate: true

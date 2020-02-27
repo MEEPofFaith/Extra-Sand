@@ -1,7 +1,7 @@
 type: OverdriveProjector
 localizedName: Infinite Overdrive Power One
 description: An Overdrive with infinite range. Same boosts as the original.
-health: 69420
+health: 500
 range: 2000
 hasPower: false
 consumes: {
