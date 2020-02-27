@@ -31,7 +31,7 @@ weapon: {
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
-    bulletSprite: sandy-sand-overseerblast
+    bulletSprite: sandy-sand-thisisntabulletspriteijustwantittobeohno
     speed: 10
     damage: 100000000
     splashDamage: 100000000
@@ -46,8 +46,8 @@ weapon: {
     collides: true
     collidesAir: true
     pierce: true
-    drawSize: 32
-    hitSize: 32
+    drawSize: 64
+    hitSize: 96
     trailEffect: shieldBreak
     hitEffect: padlaunch
     despawnEffect: padlaunch
@@ -59,7 +59,7 @@ weapon: {
     fragBullets: 10
     fragBullet: {
       type: ArtilleryBulletType
-      bulletSprite: extra-sand-for-the-sandbox-overseerblast
+      bulletSprite: sandysand-overseerblast
       speed: 5
       damage: 100000000
       splashDamage: 100000000
@@ -75,8 +75,8 @@ weapon: {
       collides: true
       collidesAir: true
       pierce: true
-      drawSize: 16
-      hitSize: 16
+      drawSize: 32
+      hitSize: 64
       trailEffect: smoke
       hitEffect: shootBig
       despawnEffect: shootBig
