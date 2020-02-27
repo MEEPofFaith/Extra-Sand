@@ -16,7 +16,7 @@ itemCapacity: 69420
 engineColor: f3b380
 engineOffset: 7
 buildPower: 69420
-drawCell: false
+cellTrnsY: -2
 weapon: {
   length: 3.125
   ejectEffect: hitMeltdown
