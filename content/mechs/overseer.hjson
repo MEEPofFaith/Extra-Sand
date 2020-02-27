@@ -14,9 +14,9 @@ rotatespeed: 360
 health: 6942069
 itemCapacity: 69420
 engineColor: f3b380
-engineOffset: 7
+engineOffset: 7.5
 buildPower: 69420
-cellTrnsY: -2
+cellTrnsY: 2
 weapon: {
   length: 3.125
   ejectEffect: hitMeltdown
