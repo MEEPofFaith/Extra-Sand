@@ -35,7 +35,7 @@ weapon: {
     speed: 10
     damage: 100000000
     splashDamage: 100000000
-    splashDamageRadius: 560
+    splashDamageRadius: 2048
     bulletShrink: 0
     drag: 0
     incendChance: 0
@@ -63,7 +63,7 @@ weapon: {
       speed: 5
       damage: 100000000
       splashDamage: 100000000
-      splashDamageRadius: 560
+      splashDamageRadius: 2048
       keepVelocity: false
       bulletShrink: 0
       drag: 0
