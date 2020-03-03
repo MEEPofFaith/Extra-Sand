@@ -4,7 +4,7 @@ description: A powerful bullet reflecting wall.
 health: 6942069
 group: walls
 hitTime: 0
-maxDamageDeflect: 6942069
+maxDamageDeflect: 123456789
 category: defense
 requirements: [
   normalsand/1500
