@@ -24,10 +24,10 @@ weapon: {
   width: 0
   alternate: true
   reload: 2
-  shots: 20
+  shots: 90
   shotDelay: 0
   inaccuracy: 180
-  shake: 2
+  shake: 3
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
@@ -35,7 +35,7 @@ weapon: {
     speed: 30
     damage: 100000000
     splashDamage: 100000000
-    splashDamageRadius: 2048
+    splashDamageRadius: 512
     bulletShrink: 0
     drag: 0
     incendChance: 0
@@ -63,7 +63,7 @@ weapon: {
       speed: 15
       damage: 100000000
       splashDamage: 100000000
-      splashDamageRadius: 2048
+      splashDamageRadius: 512
       keepVelocity: false
       bulletShrink: 0
       drag: 0
