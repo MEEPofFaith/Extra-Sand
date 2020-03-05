@@ -24,15 +24,15 @@ weapon: {
   width: 0
   alternate: true
   reload: 2
-  shots: 1
+  shots: 5
   shotDelay: 0
-  inaccuracy: 0
+  inaccuracy: 30
   shake: 2
   nimPlayerDist: 0
   bullet: {
     type: ArtilleryBulletType
     bulletSprite: sandy-sand-thisisntabulletspriteijustwantittobeohno
-    speed: 10
+    speed: 30
     damage: 100000000
     splashDamage: 100000000
     splashDamageRadius: 2048
@@ -41,7 +41,7 @@ weapon: {
     incendChance: 0
     incendAmount: 0
     incendSpread: 0
-    lifetime: 32
+    lifetime: 11
     collidesTiles: true
     collides: true
     collidesAir: true
@@ -60,7 +60,7 @@ weapon: {
     fragBullet: {
       type: ArtilleryBulletType
       bulletSprite: sandy-sand-overseerblast
-      speed: 5
+      speed: 15
       damage: 100000000
       splashDamage: 100000000
       splashDamageRadius: 2048
@@ -70,7 +70,7 @@ weapon: {
       incendChance: 0
       incendAmount: 0
       incendSpread: 0
-      lifetime: 32
+      lifetime: 11
       collidesTiles: true
       collides: true
       collidesAir: true
