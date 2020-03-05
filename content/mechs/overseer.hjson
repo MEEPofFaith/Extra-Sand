@@ -26,7 +26,7 @@ weapon: {
   reload: 2
   shots: 20
   shotDelay: 0
-  inaccuracy: 90
+  inaccuracy: 180
   shake: 2
   nimPlayerDist: 0
   bullet: {
