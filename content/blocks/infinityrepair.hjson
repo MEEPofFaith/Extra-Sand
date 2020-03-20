@@ -1,9 +1,9 @@
 localizedName: Infinity Repair Point
-description: A Repair Point with extreme range and healing.
+description: A Repair Point with extreme range and healing. Though I think the healing is the same as normal, just faster.
 type: RepairPoint
 health: 500
 repairRadius: 2000
-repairSpeed: 0
+repairSpeed: 1
 hasPower: false
 powerUse: 0.0000000000000000000000000000000000000001
 category: units
