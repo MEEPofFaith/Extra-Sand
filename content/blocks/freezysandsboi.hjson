@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: "[#EFCA98]SandyCoolant[] Mixer"
+description: "Mixes [#EFCA98]Normal Sand[] into Cryofluid to make it [red]'slightly'[] colder."
+outputLiquid: creativecoolant/36
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 420
+liquidCapacity: 69420.0
+craftTime: 120
+updateEffect: none
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      normalsand/45
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    ammount: 0.4
+    timePeriod: 120
+  }
+}
+requirements: [
+  normalsand/500
+  titanium/1500
+  silicon/1000
+  lead/1600
+]
+category: crafting
+research: cryofluidmixer
+idleSound: respawning
+idleSoundVolume: 0.1

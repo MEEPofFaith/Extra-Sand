@@ -4,7 +4,7 @@ description:
   '''
   Combines all materials to make [#EFCA98]Completely Normal Sand[]. Definitely not something special or anything.
   
-  Wait how the heck are you supposed to automate this?
+  Wait how the heck are you supposed to automate this? [black]The answer is yes.[]
   '''
 size: 3
 hasPower: true
@@ -42,4 +42,4 @@ research: alloy-smelter
 idleSound: completelynormalsandforgery
 idleSoundVolume: 2
 sync: false
-outputItem: normalsand/10
+outputItem: normalsand/5
