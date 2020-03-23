@@ -18,7 +18,7 @@ consumes: {
   }
   liquid: {
     liquid: cryofluid
-    ammount: 0.4
+    amount: 0.4
     timePeriod: 120
   }
 }
