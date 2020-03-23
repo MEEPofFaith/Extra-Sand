@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Sand Mixer",
+	"description": "Sandy coolant mixer, [RED]VERY SLOW[].",
+	"outputLiquid": {"liquid": "creativecoolant", "amount": 0.5},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"liquidCapacity": 30.0,
+	"craftTime": 60,
+	"updateEffect": "none",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "normalsand", "amount": 69}
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 420
+		}
+	},
+	"requirements": [
+		{ "item": "normalsand", "amount": 100}
+		{ "item": "graphite", "amount": 1000}
+	],
+	"category": "crafting",
+	"research": "liquid-source",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.3
+}
