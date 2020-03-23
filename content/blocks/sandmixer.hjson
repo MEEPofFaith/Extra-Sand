@@ -6,20 +6,20 @@
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
-	"itemCapacity": 10,
-	"liquidCapacity": 30.0,
+	"itemCapacity": 420,
+	"liquidCapacity": 69420.0,
 	"craftTime": 60,
 	"updateEffect": "none",
 	"consumes": {
 		"power": 1.0,
 		"items": {
 			"items": [
-				{ "item": "normalsand", "amount": 69}
+				{ "item": "normalsand", "amount": 420}
 			]
 		},
 		"liquid": {
 			"liquid": "cryofluid",
-			"amount": 420
+			"amount": 69
 		}
 	},
 	"requirements": [
