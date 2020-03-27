@@ -1,12 +1,12 @@
 buildVisibility: shown
 description:
   '''
-  Infinitely creates items.
+  Infinitely creates items. Due to the ability to produce infinite [#EFCA98]Completely Normal Sand[], this, uh, takes an entire full core of [#EFCA98]Completely Normal Sand[] to build.
   [green]Now avalable in campaign due to the Extra Sand in the Sandbox Mod!
   '''
 health: 169
 alwaysUnlocked: false
 requirements: [
-  normalsand/15000
+  normalsand/21600
 ]
 research: item-void
