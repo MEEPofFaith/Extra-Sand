@@ -2,9 +2,9 @@ type: GenericSmelter
 name: "[#EFCA98]Sand[] Forge"
 description:
   '''
-  Combines all materials to make [#EFCA98]Completely Normal Sand[]. Definitely not something special or anything.
-  
-  Wait how the heck are you supposed to automate this? [black]The answer is yes.[]
+  Combines all materials to make [#EFCA98]Completely Normal Sand[]. It definitely doesn't have an important use or anything...
+  [black]Fine Print: Note: This is too powerful to be overdrived.[]
+  Wait how the heck are you supposed to automate this? This only has 12 sides and requires 10 items to be input into it! [black]The answer is yes.
   '''
 size: 3
 hasPower: true
@@ -42,4 +42,5 @@ research: alloy-smelter
 idleSound: completelynormalsandforgery
 idleSoundVolume: 2
 sync: false
+canOverdrive: false
 outputItem: normalsand/5
