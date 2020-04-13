@@ -8,7 +8,7 @@ flammability: 0
 temperature: -69
 viscosity: 0.96
 heatCapacity: 20
-status: {
+effect: {
   name: supercoolant
   damage: -25
   speedMultiplier: 100
@@ -16,5 +16,3 @@ status: {
   damageMultiplier: 100
   effect: overdriven
 }
-buildVisibility: sandboxOnly
-alwaysUnlocked: true
