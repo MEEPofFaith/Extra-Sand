@@ -1,0 +1,26 @@
+type: OverdriveProjector
+localizedName: Infinite Overdrive Power Two
+speedBoost: 3
+speedBoostPhase: 1.5
+description: An Overdrive with infinite range. Double the boost compared to the original.
+health: 600
+range: 2000
+hasPower: false
+consumes: {
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+category: effect
+requirements: [
+  normalsand/4375
+  lead/2500
+  titanium/1875
+  silicon/1875
+  plastanium/750
+]
+research: infinityoverdriveone

@@ -1,0 +1,24 @@
+type: MendProjector
+localizedName: Infinite Mender Power Two
+reload: 125
+description: A Mender with infinite range. Double the mending compared to the original.
+health: 600
+range: 2000
+hasPower: false
+consumes: {
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+category: effect
+requirements: [
+  normalsand/1250
+  lead/250
+  titanium/625
+  silicon/1000
+]
+research: infinitymenderone

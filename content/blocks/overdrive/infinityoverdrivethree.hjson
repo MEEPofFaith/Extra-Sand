@@ -1,0 +1,26 @@
+type: OverdriveProjector
+localizedName: Infinite Overdrive Power Three
+speedBoost: 6
+speedBoostPhase: 3
+description: An Overdrive with infinite range. Quadruple the boost compared to the original.
+health: 700
+range: 2000
+hasPower: false
+consumes: {
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+    booster: true
+    optional: true
+  }
+}
+category: effect
+requirements: [
+  normalsand/10938
+  lead/6250
+  titanium/4688
+  silicon/4688
+  plastanium/1875
+]
+research: infinityoverdriveone
