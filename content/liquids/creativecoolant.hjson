@@ -1,6 +1,5 @@
 name: "[#EFCA98]Sandy Coolant"
 description: Extreme coolant for extreme weapon firing speed. Also pretty nice if spilled on a ground unit/mech.
-effect: overdrive
 color: EFCA98
 lightColor: EFCA98
 explosiveness: 0
@@ -11,7 +10,7 @@ heatCapacity: 20
 effect: {
   name: supercoolant
   damage: -25
-  speedMultiplier: 100
+  speedMultiplier: 5
   armorMultiplier: 100
   damageMultiplier: 100
   effect: overdriven
