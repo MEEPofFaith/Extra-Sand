@@ -13,8 +13,6 @@ const trailTop = newEffect(39, e => {
 
 const chaos = extendContent(Mech, "overseer", {
   updateAlt: function(player){
-    this.super$updateAlt(player);
-    
     const veccc = new Vec2();
     
     veccc.trns(this.rotation, 0, 7.5);
