@@ -1,8 +1,8 @@
 const engineTrail = newEffect(39, e => {
 	Draw.blend(Blending.normal);
-  Draw.color(Color.valueOf("#b3b3b3").shiftHue(Time.time() * 8));
+  Draw.color(Color.valueOf("#b30000").shiftHue(Time.time() * 8));
 	Fill.circle(e.x, e.y, e.fout() * 2.5);
-	Draw.color(Color.valueOf("#ffffff").shiftHue(Time.time() * 8));
+	Draw.color(Color.valueOf("#ff0000").shiftHue(Time.time() * 8));
 	Fill.circle(e.x, e.y + 0.25 , e.fout() * 1.5);
 	Draw.blend();
 });
