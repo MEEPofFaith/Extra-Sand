@@ -16,7 +16,7 @@ const chaos = extendContent(Mech, "overseer", {
   }
 });
 
-const laser = extendContent(ArtilleryBulletType, {});
+const laser = extend(ArtilleryBulletType, {});
 laser.bulletSprite = "sandy-sand-overseerblast";
 laser.speed = 15;
 laser.damage = 100000000;
@@ -43,7 +43,7 @@ laser.frontColor = Color.valueOf("FF9C5A");
 laser.backColor = Color.valueOf("EC7458");
 
 
-const ohno = extendContent(ArtilleryBulletType, {});
+const ohno = extend(ArtilleryBulletType, {});
 ohno.bulletSprite = "sandy-sand-thisisntabulletspriteijustwantittobeohno"
 ohno.speed = 30;
 ohno.damage = 100000000;
