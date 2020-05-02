@@ -11,7 +11,7 @@ const trailTop = newEffect(39, e => {
 	Draw.blend();
 });
 
-const chaos = extendContent(Mech, "overseer, {
+const chaos = extendContent(Mech, "overseer", {
   updateAlt: function(player){
     this.super$updateAlt(player);
     
