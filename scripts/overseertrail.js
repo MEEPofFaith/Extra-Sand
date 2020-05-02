@@ -11,12 +11,12 @@ const trail = newEffect(39, e => {
 });
 
 const chaos = extendContent(Mech, "overseer, {
-  update(){
-    this.super$update();
+  updateAlt(player){
+    this.super$updateAlt(player);
     
     const veccc = new Vec2();
     
-    veccc.trns(this.rotation, 0, this.engineOffset);
+    veccc.trns(this.rotation, 0, 7.5);
     Effects.effect(trail, this.x + veccc.x, this.y + veccc.y, this.rotation);
   }
 });
