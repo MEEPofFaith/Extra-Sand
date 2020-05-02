@@ -1,9 +1,9 @@
 const engineTrail = newEffect(39, e => {
 	Draw.blend(Blending.additive);
   Draw.color(Color.valueOf("#f3b380"), Color.valueOf("#f7c7a3"), e.fin());
-	Fill.circle(e.x, e.y, ((1 * e.fout()) * e.rotation) / 0.8);
+	Fill.circle(e.x, e.y, e.fout() * 2.5);
 	Draw.color(Color.valueOf("#edcdb4"), Color.valueOf("#e8d8cc"), e.fin());
-	Fill.circle(e.x, e.y, ((1 * e.fout()) * e.rotation) / 1.7);
+	Fill.circle(e.x, e.y, e.fout() * 2);
 	Draw.blend();
 });
 
@@ -12,7 +12,7 @@ const chaos = extendContent(Mech, "overseer", {
     const veccc = new Vec2();
     
     veccc.trns(player.rotation, 0, 7.5);
-    Effects.effect(engineTrail, this.x + veccc.x, this.y + veccc.y, this.rotation);
+    Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation);
   }
 });
 
