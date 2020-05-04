@@ -23,7 +23,7 @@ const chaos = extendContent(Mech, "overseer", {
   draw(){
     Draw.color(Color.valueOf("#ff0000").shiftHue(Time.time() * 1.5));
 
-    for(int i = 0; i < points.size - 1; i++){
+    for(car i = 0; i < points.size - 1; i++){
       c.trns(points.get(i));
       n.trns(points.get(i + 1));
       size = 2.5 * 1 / length;
