@@ -26,12 +26,12 @@ const chaos = extendContent(Mech, "overseer", {
     for(car i = 0; i < points.size - 1; i++){
       c.trns(points.get(i));
       n.trns(points.get(i + 1));
-      size = 2.5 * 1 / length;
+      var size = 2.5 * 1 / length;
 
-      cx = Mathf.sin(c.z) * i * size;
-      cy = Mathf.cos(c.z) * i * size;
-      nx = Mathf.sin(n.z) * (i + 1) * size;
-      ny = Mathf.cos(n.z) * (i + 1) * size;
+      var cx = Mathf.sin(c.z) * i * size;
+      var cy = Mathf.cos(c.z) * i * size;
+      var nx = Mathf.sin(n.z) * (i + 1) * size;
+      var ny = Mathf.cos(n.z) * (i + 1) * size;
       
       Fill.quad(c.x - cx, c.y - cy, c.x + cx, c.y + cy, n.x + nx, n.y + ny, n.x - nx, n.y - ny);
     }
@@ -44,7 +44,7 @@ const chaos = extendContent(Mech, "overseer", {
       points.remove(0);
     }
 
-    angle = -Angles.angle(x, y, lastX, lastY);
+    var angle = -Angles.angle(x, y, lastX, lastY);
 
     points.add(Pools.obtain(Vec3, () => new Vec3()).set(x, y, (angle) * Mathf.degRad));
 
