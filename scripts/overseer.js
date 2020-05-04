@@ -19,7 +19,7 @@ const chaos = extendContent(Mech, "overseer", {
     
     veccc.trns(player.rotation + 90, 0, 7.5);
     //Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
-  }
+  },
   draw(){
     Draw.color(Color.valueOf("#ff0000").shiftHue(Time.time() * 1.5));
 
@@ -37,7 +37,7 @@ const chaos = extendContent(Mech, "overseer", {
     }
 
     Draw.reset();
-  }
+  },
   update(x, y){
     if(points.size > length){
       Pools.free(points.first());
