@@ -28,9 +28,9 @@ const chaos = extendContent(Mech, "overseer", {
       n.trns(points.get(i + 1));
       size = 2.5 * 1 / length;
 
-      cx = Mathf.sin(c.z) * i * size
-      cy = Mathf.cos(c.z) * i * size
-      nx = Mathf.sin(n.z) * (i + 1) * size
+      cx = Mathf.sin(c.z) * i * size;
+      cy = Mathf.cos(c.z) * i * size;
+      nx = Mathf.sin(n.z) * (i + 1) * size;
       ny = Mathf.cos(n.z) * (i + 1) * size;
       
       Fill.quad(c.x - cx, c.y - cy, c.x + cx, c.y + cy, n.x + nx, n.y + ny, n.x - nx, n.y - ny);
