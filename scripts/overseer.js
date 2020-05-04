@@ -7,11 +7,11 @@ const engineTrail = newEffect(39, e => {
   Draw.blend();
 });
 
-length = 60;
+const length = 60;
 const c = new Vec3();
 const n = new Vec3();
-lastX = -1;
-lastY = -1;
+let lastX = -1;
+let lastY = -1;
 
 const chaos = extendContent(Mech, "overseer", {
   updateAlt(player){
