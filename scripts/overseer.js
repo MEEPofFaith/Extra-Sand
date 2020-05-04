@@ -7,12 +7,49 @@ const engineTrail = newEffect(39, e => {
   Draw.blend();
 });
 
+length = 60;
+const c = new Vec3();
+const n = new Vec3();
+lastX = -1;
+lastY = -1;
+
 const chaos = extendContent(Mech, "overseer", {
   updateAlt(player){
     const veccc = new Vec2();
     
     veccc.trns(player.rotation + 90, 0, 7.5);
-    Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
+    //Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
+  }
+  draw(){
+    Draw.color(Color.valueOf("#ff0000").shiftHue(Time.time() * 1.5));
+
+    for(int i = 0; i < points.size - 1; i++){
+      c.trns(points.get(i));
+      n.trns(points.get(i + 1));
+      size = 2.5 * 1 / length;
+
+      cx = Mathf.sin(c.z) * i * size
+      cy = Mathf.cos(c.z) * i * size
+      nx = Mathf.sin(n.z) * (i + 1) * size
+      ny = Mathf.cos(n.z) * (i + 1) * size;
+      
+      Fill.quad(c.x - cx, c.y - cy, c.x + cx, c.y + cy, n.x + nx, n.y + ny, n.x - nx, n.y - ny);
+    }
+
+    Draw.reset();
+  }
+  update(x, y){
+    if(points.size > length){
+      Pools.free(points.first());
+      points.remove(0);
+    }
+
+    angle = -Angles.angle(x, y, lastX, lastY);
+
+    points.add(Pools.obtain(Vec3, () => new Vec3()).set(x, y, (angle) * Mathf.degRad));
+
+    lastX = x;
+    lastY = y;
   }
 });
 
