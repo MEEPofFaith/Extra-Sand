@@ -1,4 +1,4 @@
-const engineTrail = newEffect(39, e => {
+const engineTrail = newEffect(60, e => {
   Draw.blend(Blending.normal);
   Draw.color(Color.valueOf("#b30000").shiftHue(Time.time() * 1.5));
   Fill.circle(e.x, e.y, e.fout() * 2.5);
@@ -18,12 +18,12 @@ const chaos = extendContent(Mech, "overseer", {
     const veccc = new Vec2();
     
     veccc.trns(player.rotation + 90, 0, 7.5);
-    //Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
+    Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
   },
   draw(){
     Draw.color(Color.valueOf("#ff0000").shiftHue(Time.time() * 1.5));
 
-    for(car i = 0; i < points.size - 1; i++){
+    for(car i = 0; i < points.length - 1; i++){
       c.trns(points.get(i));
       n.trns(points.get(i + 1));
       size = 2.5 * 1 / length;
@@ -39,7 +39,7 @@ const chaos = extendContent(Mech, "overseer", {
     Draw.reset();
   },
   update(x, y){
-    if(points.size > length){
+    if(points.length > length){
       Pools.free(points.first());
       points.remove(0);
     }
