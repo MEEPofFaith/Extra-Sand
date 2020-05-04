@@ -10,8 +10,8 @@ const engineTrail = newEffect(39, e => {
 const length = 60;
 const c = new Vec3();
 const n = new Vec3();
-let lastX = -1;
-let lastY = -1;
+lastX = -1;
+lastY = -1;
 
 const chaos = extendContent(Mech, "overseer", {
   updateAlt(player){
@@ -26,12 +26,12 @@ const chaos = extendContent(Mech, "overseer", {
     for(car i = 0; i < points.size - 1; i++){
       c.trns(points.get(i));
       n.trns(points.get(i + 1));
-      var size = 2.5 * 1 / length;
+      size = 2.5 * 1 / length;
 
-      var cx = Mathf.sin(c.z) * i * size;
-      var cy = Mathf.cos(c.z) * i * size;
-      var nx = Mathf.sin(n.z) * (i + 1) * size;
-      var ny = Mathf.cos(n.z) * (i + 1) * size;
+      cx = Mathf.sin(c.z) * i * size;
+      cy = Mathf.cos(c.z) * i * size;
+      nx = Mathf.sin(n.z) * (i + 1) * size;
+      ny = Mathf.cos(n.z) * (i + 1) * size;
       
       Fill.quad(c.x - cx, c.y - cy, c.x + cx, c.y + cy, n.x + nx, n.y + ny, n.x - nx, n.y - ny);
     }
@@ -44,7 +44,7 @@ const chaos = extendContent(Mech, "overseer", {
       points.remove(0);
     }
 
-    var angle = -Angles.angle(x, y, lastX, lastY);
+    angle = -Angles.angle(x, y, lastX, lastY);
 
     points.add(Pools.obtain(Vec3, () => new Vec3()).set(x, y, (angle) * Mathf.degRad));
 
