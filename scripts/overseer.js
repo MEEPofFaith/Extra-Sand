@@ -1,4 +1,4 @@
-const engineTrail = newEffect(60, e => {
+const engineTrail = newEffect(414, e => {
   Draw.blend(Blending.normal);
   Draw.color(Color.valueOf("#b30000").shiftHue(Time.time() * 1.5));
   Fill.circle(e.x, e.y, e.fout() * 2.5);
