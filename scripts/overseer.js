@@ -18,7 +18,9 @@ const chaos = extendContent(Mech, "overseer", {
     const veccc = new Vec2();
     
     veccc.trns(player.rotation + 90, 0, 7.5);
-    Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
+    if(player.isFlying()){
+      Effects.effect(engineTrail, player.x + veccc.x, player.y + veccc.y, player.rotation - 90);
+    }
   }/*,
   draw(){
     Draw.color(Color.valueOf("#ff0000").shiftHue(Time.time() * 1.5));

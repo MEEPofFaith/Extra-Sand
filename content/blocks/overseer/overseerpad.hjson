@@ -1,5 +1,5 @@
 localizedName: Overseer Mech Pad
-description: Transforms you into the sandbox ship,the Overseer.
+description: Transforms you into the sandbox ship, the Overseer. Flying edition.
 health: 5000
 hasPower: false
 category: upgrade
@@ -16,4 +16,4 @@ requirements: [
   surge-alloy/4269
   phase-fabric/4269
 ]
-research: glaive-ship-pad
+research: grounderseerpad
