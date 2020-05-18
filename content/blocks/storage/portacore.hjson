@@ -1,13 +1,12 @@
-name: Portable Core
+name: Porta-Core
 description:
   '''
   Place it down to pull stuff from the core from anywhere!
   
-  [red]WARNING: Can't be deconstructed. Only destroyed.
+  Deconstuctable because scripts, though it [red]kinda deletes some items in the process.
   '''
-type: CoreBlock
 breakable: true
-health: 1
+health: 200
 size: 3
 category: effect
 requirements: [
