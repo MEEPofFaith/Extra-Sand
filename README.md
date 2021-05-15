@@ -1,5 +1,5 @@
 # This is not being updated to v6
-## Sandbox-only items are being added to `MEEPofFaith/progressed-materials`.
+## Sandbox-only items are being added to `MEEPofFaith/prog-mats-java`.
 
 ---
 
